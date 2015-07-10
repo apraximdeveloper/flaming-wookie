@@ -1,0 +1,22 @@
+{
+  "name": "twitter-oauth-practice-pull",
+  "version": "1.0.0",
+  "description": "An NPM package for retrieving a twitter-angular-oauth package",
+  "main": "app2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apraximdeveloper/flaming-wookie.git"
+  },
+  "keywords": [
+    "SED"
+  ],
+  "author": "DAT aka arvad praxim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apraximdeveloper/flaming-wookie/issues"
+  },
+  "homepage": "https://github.com/apraximdeveloper/flaming-wookie#readme"
+}
