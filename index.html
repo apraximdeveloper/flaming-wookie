@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="application/javascript" src="bower_components/oauth-js/dist/oauth.js"></script>
+    <script type="application/javascript" src="bower_components/angular/angular.js"></script>
+
+    <script type="application/javascript" src="scripts/app2.js"></script>
+    <link rel="stylesheet" href="css/base.css"/>
+    <!--<script type="application/javascript" src="scripts/twitter_service2.js"></script>
+    <script type="application/javascript" src="scripts/app_controller.js"></script>
+-->
+
+</head>
+<body ng-app="sed" ng-controller="SedController">
+<h1>Twitter Feedgit</h1>
+
+<input type="button" value="Log into Twitter" ng-click="initialize()"/>
+<input type="button" value="Get Tweets" ng-click="getTweets()"/>
+<input type="text" ng-model="screenName"/>
+
+<ul>
+    <li ng-repeat="item in tweets">
+         {{item.text}}
+    </li>
+</ul>
+
+
+</body>
+</html>
